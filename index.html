@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cek Berat Badan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Cek Berat Badan</h2>
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+      <label for="berat">Berat Badan (kg):</label>
+      <input type="number" id="berat" name="berat" required>
+      <label for="tinggi">Tinggi Badan (cm):</label>
+      <input type="number" id="tinggi" name="tinggi" required>
+      <button id="hitung">Hitung</button>
+    </form>
+    <div class="hasil">
+      <h3 id="nama-user"></h3>
+      <p id="hasil-berat"></p>
+      <p id="kcal-harian"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
